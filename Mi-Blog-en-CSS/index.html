@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head> <!-- Primero agregar tu fuente y luego la ruta de css -->
+    <title>Blog de Molina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Blog de Molina</h1>
+    </header>
+        <section class="containe">
+            <article class="post">
+                <h2>Bienvenidos a mi Web!</h2>
+                <p>Si quieres conocer más sobre mi pincha en los links</p>
+
+            </article>
+        </section>
+    <section class="containe" > <!-- aqui podemos agregar la clase de containe -->
+        <article class="post">
+            <h2> <span style="color: blue;">Facebook</span> </h2>
+            <p> Busca mi perfil y enviame una solicitud de amistad</p>
+            <img src="img/facebook.avif" width="400"/>
+            <a target="_blank" href="https://web.facebook.com/francisco.molinacarrillo">Mi Facebook</a>
+        </article>    
+        <article class="post">
+            <h2> <span style="color: blueviolet;" >Instagram</span> </h2>
+            <p>Echale un vistazo a mis fotos</p>
+            <img src="img/instagram.png" width="400"/>
+            <a target="_blank" href="https://www.instagram.com/isco_lina96/">Mi Instagram </a>
+        </article>    
+        <article class="post">    
+        <h2> <span style="color: brown;" >Discord</span> </h2>
+            <p>Juega con migo en mi canal!</p>
+            <img src="img/discord.jpeg" width="400"/>
+            <a target="_blank" href="https://discord.gg/JVgEw5YZ"> Mi Discord </a>
+        </article>
+    </section>
+    <section class="containe" >
+        <article class="post">
+            <h2>Dejanos tus datos para ponernos en contacto</h2>
+            <form>
+                <label for="nombre y apellido">Nombre y Apellido</label>
+                <input type="text" id="nombre y apellido" name="nombre y apellido" placeholder="Francisco Molina"/>
+                <br><br>
+                <label for="correo">Correo Electronico</label>
+                <input type="email" id="correo" name="correo" placeholder="indica tu e-mail"/>
+                <br><br>
+                <label for="numero">Tu numero Celular</label>
+                <input type="text" id="apellido" name="numero" placeholder="+569 12345678"/>
+                <br><br>
+            </form>
+        </article>
+        <article class="post">    
+                <h2>Agrega una imagen graciosa</h2>
+                <label for="archivo"></label>
+                <input type="file" id="archivo" name="archivo" placeholder="agregar archivo"/>
+        </article>
+        
+        <article class="post">
+            <h2>Dejanos tus comentarios</h2>
+            <label for="comentario"></label>
+            <textarea cols="45" rows="10"id="comentario" placeholder="Ingresa tu comentario" name="comentario"></textarea>
+        <br>
+        </article>
+    </section>
+    <footer> <!-- hay que agregar una seccion en footer para editar -->
+        <section>
+        <a href="mailo:molina.carrillo1996@gmail.com" >Contactame aquí</a>
+        <br><br>
+        <a href="#titulo">Ir al inicio</a>
+        </section>
+        <p>Constitución, Chile 2024</p>
+    </footer>
+</body>
+</html>
